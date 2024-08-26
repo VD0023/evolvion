@@ -5,8 +5,17 @@
 }
 
 .about-section p {
-  font-size: 16px;
+  font-size: 18px; /* Increase font size */
   color: #445A61;
-  line-height: 1.6;
+  line-height: 1.8; /* Adjust line height for readability */
   font-family: 'Playfair Display', serif;
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px; /* Add slight rounding to image corners */
 }

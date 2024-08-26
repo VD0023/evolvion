@@ -1,14 +1,15 @@
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent; /* Ensure transparency */
+  background-color: rgba(0, 0, 0, 0.8); /* Add transparency to background */
   color: white;
   padding: 20px 50px;
-  z-index: 10;
+  z-index: 100; /* Ensure it stays on top */
   display: flex;
   align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
 }
 
 .logo-container {
@@ -31,11 +32,12 @@
   margin: 0;
   font-family: 'Playfair Display', serif;
   color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Improve text readability */
 }
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 30px; /* Increase gap for better spacing */
   margin-left: auto;
 }
 
@@ -43,8 +45,11 @@
   color: white;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold; /* Make text bolder */
+  transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 .nav-links a:hover {
+  color: #D3D3D3; /* Change color on hover for better UX */
   text-decoration: underline;
 }
