@@ -1,0 +1,60 @@
+.services {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #000000, #445A61); /* Gradient background */
+  color: white;
+}
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.service-item1 {
+  color: 445A61;
+  background: url('/public/images/1.PNG') no-repeat center center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-item2 {
+  color: 445A61;
+  background: url('/public/images/2.PNG') no-repeat center center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-item3 {
+  color: 445A61;
+  background: url('/public/images/3.PNG') no-repeat center center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-item:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+.services-section {
+  background-color: #F9F9F9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-section p {
+  font-size: 16px;
+  color: #445A61;
+  line-height: 1.6;
+  font-family: 'Playfair Display', serif;
+}

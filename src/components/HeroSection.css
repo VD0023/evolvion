@@ -1,0 +1,35 @@
+.hero-section {
+  position: relative;
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px); /* Adjust blur to make text more readable */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}

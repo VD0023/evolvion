@@ -1,0 +1,12 @@
+.about-section {
+  background-color: #FFFFFF;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #445A61;
+  line-height: 1.6;
+  font-family: 'Playfair Display', serif;
+}

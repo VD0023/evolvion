@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black; /* Ensure body has no conflicting background */
+  color: white; /* Default text color to white */
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; /* Elegant font for headings */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.services, .case-studies, .about, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-grid, .case-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.service-item, .case-item {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #6e45e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
