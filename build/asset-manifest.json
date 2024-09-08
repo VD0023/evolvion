@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/evolvion/static/css/main.0495675e.css",
+    "main.js": "/evolvion/static/js/main.cb2e14ca.js",
+    "static/js/453.a84e6311.chunk.js": "/evolvion/static/js/453.a84e6311.chunk.js",
+    "static/media/Background.PNG": "/evolvion/static/media/Background.73e5b0ea30158ab7df22.PNG",
+    "static/media/About-pic.jpg": "/evolvion/static/media/About-pic.9d98c7f3ce309701429f.jpg",
+    "static/media/logo.png": "/evolvion/static/media/logo.7beb7791471b3a42bf50.png",
+    "index.html": "/evolvion/index.html",
+    "main.0495675e.css.map": "/evolvion/static/css/main.0495675e.css.map",
+    "main.cb2e14ca.js.map": "/evolvion/static/js/main.cb2e14ca.js.map",
+    "453.a84e6311.chunk.js.map": "/evolvion/static/js/453.a84e6311.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0495675e.css",
+    "static/js/main.cb2e14ca.js"
+  ]
+}
