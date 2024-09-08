@@ -2,14 +2,47 @@ body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black; /* Ensure body has no conflicting background */
-  color: white; /* Default text color to white */
+  background-color: #000000; /* Ensure body has no conflicting background */
+  color: white;
+  font-family: 'Poppins', sans-serif; /* Professional font */
+  scroll-behavior: smooth; /* Smooth scroll effect */
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; 
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Section Fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif; /* Elegant font for headings */
+  font-family: 'Playfair Display', serif;
 }
   
 .header {
@@ -60,4 +93,4 @@ form button {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-}
+} */

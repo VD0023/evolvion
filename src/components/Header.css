@@ -1,55 +1,23 @@
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Add transparency to background */
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 20px 50px;
-  z-index: 100; /* Ensure it stays on top */
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.logo-container img {
-  width: 50px;
-  margin-right: 20px;
-}
-
-.header-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-text h1,
-.header-text h2 {
-  margin: 0;
-  font-family: 'Playfair Display', serif;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Improve text readability */
-}
-
-.nav-links {
-  display: flex;
-  gap: 30px; /* Increase gap for better spacing */
-  margin-left: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-links a {
   color: white;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold; /* Make text bolder */
-  transition: color 0.3s ease; /* Smooth transition on hover */
+  font-weight: 600; 
+  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #D3D3D3; /* Change color on hover for better UX */
+  color: #FFD700; 
   text-decoration: underline;
 }

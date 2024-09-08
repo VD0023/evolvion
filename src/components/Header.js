@@ -14,7 +14,6 @@ function Header() {
         </div>
       </div>
       <nav className="nav-links">
-        {/* Your navigation links go here */}
       </nav>
     </header>
   );

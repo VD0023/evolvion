@@ -1,20 +1,25 @@
 import React from 'react';
 import './Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-content">
-        <h2 className="footer-logo">Evolvion AI Agency</h2>
-        <p className="footer-why">Challenging the status quo, one innovation at a time.</p>
-        <div className="footer-details">
-          <p>Address: Sydney, AUS</p>
-          <p>Contact: evolvionai@gmail.com</p>
-          <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      <div className="footer-left">
+        <h2>Evolvion AI Agency</h2>
+      </div>
+      <div className="footer-right">
+        <p>© {new Date().getFullYear()} Evolvion. All rights reserved.</p>
+        <div className="footer-links">
+          <button onClick={() => alert('Privacy Policy coming soon!')} className="footer-link">
+            Privacy Policy
+          </button>
+          <button onClick={() => alert('Terms of Service coming soon!')} className="footer-link">
+            Terms of Service
+          </button>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

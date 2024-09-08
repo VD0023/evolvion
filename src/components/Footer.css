@@ -1,32 +1,40 @@
 .footer {
-  background-color: #445A61;
-  color: white;
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  background-color: #445A61;
+  color: #fff;
 }
 
-.footer-logo {
+.footer-left h2 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
-.footer-why {
-  font-size: 14px;
-  margin-bottom: 20px;
+.footer-right {
+  text-align: right;
 }
 
-.footer-details p {
-  margin: 5px 0;
+.footer-right p {
+  margin: 0;
 }
 
-.footer-details a {
-  color: white;
-  text-decoration: none;
+.footer-links {
+  margin-top: 10px;
 }
 
-.footer-details a:hover {
+.footer-link {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  font-size: 16px;
   text-decoration: underline;
+  margin-left: 15px;
+}
+
+.footer-link:hover {
+  color: #ccc;
 }

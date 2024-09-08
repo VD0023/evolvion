@@ -1,12 +1,12 @@
 .case-studies {
   padding: 50px 20px;
   text-align: center;
-  background: white; /* White background for the section */
-  color: #445A61; /* Text color matching the website's color scheme */
+  background: white; 
+  color: #445A61; 
 }
 
 .case-studies h2 {
-  font-family: 'Playfair Display', serif; /* Elegant font for headings */
+  font-family: 'Playfair Display', serif; 
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -19,8 +19,8 @@
 }
 
 .success-item {
-  background: linear-gradient(135deg, #000000, #445A61) !important; /* Gradient from black to #445A61 */
-  color: white !important; /* White text color */
+  background: linear-gradient(135deg, #000000, #445A61) !important; 
+  color: white !important; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -30,15 +30,15 @@
 }
 
 .success-item:hover {
-  transform: translateY(-10px) !important; /* Lift effect on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important; /* Darker shadow on hover */
+  transform: translateY(-10px) !important; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
 }
 
 .success-item h3 {
-  font-family: 'Roboto', sans-serif; /* Modern font for subheadings */
-  color: white !important; /* Ensure heading text is white */
+  font-family: 'Roboto', sans-serif; 
+  color: white !important; 
 }
 
 .success-item p {
-  color: #ddd !important; /* Subtle color for paragraph text to ensure readability */
+  color: #ddd !important; 
 }
